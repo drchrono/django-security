@@ -1,0 +1,16 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: django-security
+  description: A collection of models, views, middlewares, and forms to help secure
+    a Django project.
+  annotations:
+    business-unit: EverHealth
+    github.com/project-slug: drchrono/django-security
+    product: DRC
+spec:
+  type: service
+  lifecycle: production
+  owner: EverHealth
+  implementation:
+    languages: []
